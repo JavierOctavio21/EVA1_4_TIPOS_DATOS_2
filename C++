@@ -1,0 +1,19 @@
+#include <iostream>
+#include <sstream>
+
+using namespace std;
+
+// Headers
+string toString (double);
+int toInt (string);
+double toDouble (string);
+
+int main() {
+    cout << "introduce tu nombre" << endl;
+    string sNombre;
+
+    cin >> sNombre;
+    cout << "Tu nombre es" << endl;
+    cout << sNombre << endl;
+    return 0;
+}
